@@ -1,0 +1,137 @@
+<script>
+  const workflowItems = [
+    {
+      title: 'Firm-Specific Workflows',
+      description: 'Create and automate workflows tailored to your needs, reducing manual tasks and integrating seamlessly with your existing tools. Optimize processes for research, analysis, and reporting to improve efficiency and accuracy.',
+      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop',
+      type: 'workflow'
+    },
+    {
+      title: 'AI Table Interface',
+      description: 'Organize and manage data effortlessly with an interactive table interface. Sort, filter, and update information in real time, enabling structured analysis and seamless decision-making.',
+      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop',
+      type: 'table'
+    },
+    {
+      title: 'Material Creation',
+      description: 'Generate reports, summaries, and presentations with AI-powered automation. Transform raw data into polished, professional materials while ensuring clarity and consistency.',
+      image: 'https://images.unsplash.com/photo-1586281380349-632531db7ed4?q=80&w=2070&auto=format&fit=crop',
+      type: 'creation'
+    }
+  ];
+</script>
+
+<section class="py-24 bg-white">
+  <div class="max-w-[1400px] mx-auto px-6">
+    <div class="mb-16">
+      <h2 class="text-4xl md:text-5xl font-serif text-gray-900 mb-4">Streamline & Automate<br/>Your Workflows</h2>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      {#each workflowItems as item}
+        <div class="group">
+          <!-- Card Visual -->
+          <div class="bg-[#152e26] rounded-lg overflow-hidden aspect-[4/3] mb-8 relative p-6 flex flex-col">
+            {#if item.type === 'workflow'}
+               <!-- Workflow UI Mockup -->
+               <div class="bg-white rounded-md shadow-lg p-4 w-full h-full flex flex-col gap-3 text-[10px]">
+                  <div class="flex items-center gap-2 border-b pb-2">
+                     <div class="w-4 h-4 bg-green-100 rounded flex items-center justify-center text-green-700">✓</div>
+                     <span class="font-medium">Benchmark Precedent Transactions</span>
+                  </div>
+                  <div class="space-y-2 pl-2">
+                     <div class="flex items-center gap-2">
+                        <div class="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
+                        <span class="font-medium">Running workflow...</span>
+                     </div>
+                     <div class="flex items-center gap-2 text-gray-500">
+                        <div class="w-3 h-3 border border-gray-300 rounded-full flex items-center justify-center text-[8px]">✓</div>
+                        <span>Identifying companies</span>
+                     </div>
+                     <div class="flex items-center gap-2 text-gray-500">
+                        <div class="w-3 h-3 border border-gray-300 rounded-full flex items-center justify-center text-[8px]">✓</div>
+                        <span>Searching sources</span>
+                     </div>
+                     <div class="flex items-center gap-2 text-gray-500">
+                        <div class="w-3 h-3 border border-gray-300 rounded-full flex items-center justify-center text-[8px]">✓</div>
+                        <span>Retrieving company metrics</span>
+                     </div>
+                     <div class="flex items-center gap-2 text-gray-500">
+                        <div class="w-3 h-3 border border-gray-300 rounded-full flex items-center justify-center text-[8px]">✓</div>
+                        <span>Creating table</span>
+                     </div>
+                     <div class="flex items-center gap-2 text-gray-500">
+                        <div class="w-3 h-3 border border-gray-300 rounded-full flex items-center justify-center text-[8px]"></div>
+                        <span>Finalizing citations...</span>
+                     </div>
+                  </div>
+               </div>
+            {:else if item.type === 'table'}
+               <!-- Table UI Mockup -->
+               <div class="bg-white rounded-md shadow-lg p-4 w-full h-full flex flex-col gap-2 text-[10px]">
+                  <div class="flex justify-between items-center mb-1">
+                     <span class="font-medium text-gray-700">Tariff impact on top manufacturing firms</span>
+                  </div>
+                  <div class="flex items-center gap-2 text-gray-500 mb-2">
+                     <div class="w-4 h-4 bg-gray-100 rounded flex items-center justify-center">🔍</div>
+                     <span>Found 12 sources</span>
+                  </div>
+                  <p class="text-gray-400 text-[9px] mb-3">Currently, Caterpillar, Boeing, and Ford face tariff pressures among leading U.S. manufacturers.</p>
+                  
+                  <div class="border rounded overflow-hidden">
+                     <div class="grid grid-cols-2 bg-gray-50 p-1.5 border-b font-medium text-gray-600">
+                        <div>Company</div>
+                        <div>% Revenue from Int.</div>
+                     </div>
+                     <div class="grid grid-cols-2 p-1.5 border-b items-center">
+                        <div class="flex items-center gap-1"><div class="w-2 h-2 border rounded-sm"></div> General Electric</div>
+                        <div class="h-1.5 bg-gray-200 rounded w-16"></div>
+                     </div>
+                     <div class="grid grid-cols-2 p-1.5 border-b items-center">
+                        <div class="flex items-center gap-1"><div class="w-2 h-2 border rounded-sm"></div> Boeing</div>
+                        <div class="h-1.5 bg-gray-200 rounded w-12"></div>
+                     </div>
+                     <div class="grid grid-cols-2 p-1.5 items-center">
+                        <div class="flex items-center gap-1"><div class="w-2 h-2 border rounded-sm"></div> Caterpillar</div>
+                        <div class="h-1.5 bg-gray-200 rounded w-14"></div>
+                     </div>
+                  </div>
+               </div>
+            {:else}
+               <!-- Creation UI Mockup -->
+               <div class="bg-white rounded-md shadow-lg p-4 w-full h-full flex flex-col gap-3 text-[10px]">
+                  <div class="flex items-center gap-2 mb-2">
+                     <div class="w-4 h-4 bg-green-700 rounded flex items-center justify-center text-white text-[8px]">P</div>
+                     <span class="text-gray-500">Generating Powerpoint...</span>
+                  </div>
+                  <div class="bg-gray-50 p-3 rounded border border-gray-100">
+                     <p class="text-gray-600 mb-3">Here is your requested deck. I customized your presentation template and included file with the backup data.</p>
+                     <div class="text-[9px] text-gray-400 mb-2">Exports (2)</div>
+                     <div class="space-y-2">
+                        <div class="flex items-center justify-between bg-white p-2 rounded border border-gray-200">
+                           <div class="flex items-center gap-2">
+                              <div class="w-4 h-4 bg-red-500 rounded-sm"></div>
+                              <span class="font-medium">TMT Market Overview.pptx</span>
+                           </div>
+                           <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
+                        </div>
+                        <div class="flex items-center justify-between bg-white p-2 rounded border border-gray-200">
+                           <div class="flex items-center gap-2">
+                              <div class="w-4 h-4 bg-green-600 rounded-sm"></div>
+                              <span class="font-medium">Tech Multiples Backup.xlsx</span>
+                           </div>
+                           <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            {/if}
+          </div>
+          
+          <h3 class="text-xl font-serif text-gray-900 mb-3">{item.title}</h3>
+          <p class="text-sm leading-relaxed text-gray-500 font-light">{item.description}</p>
+        </div>
+      {/each}
+    </div>
+  </div>
+</section>

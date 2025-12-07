@@ -38,6 +38,19 @@
 	--color-secondary-900: oklch(30% 0.1 30);
 	--color-secondary-950: oklch(20% 0.11 30);
 
-	--font-body: var(--font-family), var(--font-fallback);
-	--font-display: var(--font-body);
+	--font-body: 'Inter', sans-serif;
+	--font-display: 'Newsreader', serif;
+	--font-serif: 'Newsreader', serif;
+	--font-sans: 'Inter', sans-serif;
+}
+
+@layer base {
+	html {
+		font-family: var(--font-body);
+		color: #111;
+		background: #ffffff;
+	}
+	h1, h2, h3, h4, h5, h6 {
+		font-family: var(--font-display);
+	}
 }
