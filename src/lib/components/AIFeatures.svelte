@@ -1,33 +1,33 @@
 <script>
   const features = [
     {
-      title: 'Integrations',
-      description: 'Connect seamlessly with your existing providers and file systems. Enhance your workflows by interacting with internal & external data sources.',
+      title: 'AI-Powered Insights',
+      description: 'Every episode is analyzed by our custom AI engine to extract actionable business intelligence. Get the key takeaways without spending hours listening.',
       type: 'integrations'
     },
     {
-      title: 'Prompt Library',
-      description: 'Choose from our library of professionally written prompts aimed at automating your common workflows end-to-end.',
+      title: 'Curated Content',
+      description: 'Eight original shows covering Gen Z insights, leadership, marketing strategies, and career development. Quality over quantity, every time.',
       type: 'library'
     },
     {
-      title: 'Guided Implementation',
-      description: 'White-glove engagement and implementation with our team of ex-bankers and private equity investors.',
+      title: 'Community Events',
+      description: 'Join intimate gatherings, industry events, and pop-up shows. Connect with fellow marketing leaders and thought leaders in real life.',
       type: 'implementation'
     },
     {
-      title: 'Custom-Trained Models',
-      description: 'Custom-trained LLMs built for finance, using professionally labeled data tailored to the workflows and precision standards of investment banking.',
+      title: 'Episode Reports',
+      description: 'Custom-built AI generates detailed reports from every podcast episode, transforming passive listening into actionable business intelligence.',
       type: 'models'
     },
     {
-      title: 'Governance & Permissions',
-      description: 'Granular permission controls, role-based access management, comprehensive audit trails, and customizable governance policies to streamline compliance and safeguard your data.',
+      title: 'iHeartMedia Partnership',
+      description: 'Launching with one of the largest audio companies in the U.S., giving you immediate access to premium distribution and credibility.',
       type: 'governance'
     },
     {
-      title: 'Single Tenant Deployment',
-      description: 'Flexible deployment options to meet your security and infrastructure needs.',
+      title: 'Mobile & Desktop',
+      description: 'Listen anywhere with our seamless cross-platform experience. Your insights sync across all your devices.',
       type: 'deployment'
     }
   ];

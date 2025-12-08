@@ -18,9 +18,9 @@
 <section class="py-24 bg-white">
   <div class="max-w-[1400px] mx-auto px-6">
     <div class="mb-16">
-      <h2 class="text-4xl md:text-5xl font-serif text-gray-900 mb-6">Curated Network</h2>
+      <h2 class="text-4xl md:text-5xl font-serif text-gray-900 mb-6">Launch lineup</h2>
       <p class="text-gray-500 max-w-2xl font-light text-lg">
-        We partner with leading voices in marketing and business to bring you the highest-quality podcast content. Our curated network, combined with AI-powered insights, gives you the clarity and confidence to stay ahead of industry trends.
+        Eight original shows hosted by leading voices in marketing and business. Each episode is transformed into actionable insights by our AI engine, giving you the clarity and confidence to stay ahead of industry trends.
       </p>
     </div>
 
@@ -56,6 +56,12 @@
              </svg>
           </div>
           <span class="text-gray-900 font-serif text-lg">{provider.name}</span>
+        </div>
+      {/each}
+    </div>
+  </div>
+</section>
+ont-serif text-lg">{provider.name}</span>
         </div>
       {/each}
     </div>

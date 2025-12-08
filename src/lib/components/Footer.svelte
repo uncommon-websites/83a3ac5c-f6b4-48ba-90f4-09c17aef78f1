@@ -9,7 +9,7 @@
              <div class="absolute top-0 right-0 w-1/2 h-1/2 bg-white"></div>
           </div>
           <h2 class="text-5xl md:text-6xl font-serif text-gray-900 leading-tight mb-8">
-            Unlock Financial AI<br/>For Your Firm
+            Join the Community<br/>of the Curious
           </h2>
        </div>
        
