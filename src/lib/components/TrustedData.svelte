@@ -18,9 +18,9 @@
 <section class="py-24 bg-white">
   <div class="max-w-[1400px] mx-auto px-6">
     <div class="mb-16">
-      <h2 class="text-4xl md:text-5xl font-serif text-gray-900 mb-6">Trusted Data</h2>
+      <h2 class="text-4xl md:text-5xl font-serif text-gray-900 mb-6">Curated Network</h2>
       <p class="text-gray-500 max-w-2xl font-light text-lg">
-        We partner with trusted data providers to bring the highest-quality financial information to our platform. Their expertise, combined with Rogo's technology, gives customers the clarity and confidence they need to move fast.
+        We partner with leading voices in marketing and business to bring you the highest-quality podcast content. Our curated network, combined with AI-powered insights, gives you the clarity and confidence to stay ahead of industry trends.
       </p>
     </div>
 

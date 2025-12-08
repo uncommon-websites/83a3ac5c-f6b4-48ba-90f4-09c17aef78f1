@@ -35,8 +35,8 @@
           </div>
         </div>
 
-        <a href="#security" class="inline-flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors group">
-          Find out more
+        <a href="#privacy" class="inline-flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors group">
+          Read our privacy policy
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="group-hover:translate-x-1 transition-transform"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
         </a>
       </div>

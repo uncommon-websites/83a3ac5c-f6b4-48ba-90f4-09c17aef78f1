@@ -37,7 +37,7 @@
   <div class="max-w-[1400px] mx-auto px-6">
     <div class="mb-16">
       <h2 class="text-4xl md:text-5xl font-serif text-gray-900 leading-tight">
-        AI That Learns How Your<br/>Firm Thinks and Works
+        Intelligence That Adapts<br/>to Your Marketing Goals
       </h2>
     </div>
 

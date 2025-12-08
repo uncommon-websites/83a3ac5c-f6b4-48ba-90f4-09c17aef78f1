@@ -55,7 +55,7 @@
     </div>
     
     <div class="text-center text-[10px] text-gray-400 tracking-widest uppercase">
-       © 2025 Rogo AI
+       © 2025 Bubbler
     </div>
   </div>
 </footer>
