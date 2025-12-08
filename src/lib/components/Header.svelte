@@ -5,22 +5,84 @@
 <header class="fixed top-0 left-0 w-full z-50 transition-all duration-300 {isScrolled ? 'bg-white/90 backdrop-blur-md py-4 shadow-sm' : 'bg-transparent py-6'}">
   <div class="max-w-[1400px] mx-auto px-6 flex items-center justify-between">
     <!-- Logo -->
-    <a href="/" class="text-2xl font-medium tracking-tight font-sans">rogo</a>
+    <a href="/" class="flex items-center gap-2">
+      <div class="w-8 h-8 text-primary-600">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M4.90733 13.7134C5.31054 14.1143 5.31053 14.7642 4.90732 15.1651L4.88667 15.1856C4.48346 15.5865 3.82974 15.5865 3.42654 15.1856C3.02334 14.7847 3.02334 14.1348 3.42655 13.7339L3.4472 13.7134C3.85041 13.3125 4.50413 13.3125 4.90733 13.7134Z"
+            fill="currentColor"
+            fill-opacity="0.992157"
+          />
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M9.76116 14.0225C10.1636 14.4241 10.1624 15.0741 9.75849 15.4742L6.89856 18.3074C6.49463 18.7075 5.84091 18.7064 5.43843 18.3048C5.03596 17.9032 5.03714 17.2532 5.44107 16.8531L8.30102 14.0199C8.70497 13.6198 9.35867 13.6209 9.76116 14.0225Z"
+            fill="currentColor"
+          />
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M13.6424 18.8997C13.9587 18.428 14.5997 18.3005 15.0741 18.615L15.1361 18.656C15.6105 18.9705 15.7387 19.6078 15.4224 20.0795C15.1061 20.5513 14.4651 20.6787 13.9907 20.3643L13.9287 20.3232C13.4543 20.0087 13.3261 19.3714 13.6424 18.8997Z"
+            fill="currentColor"
+            fill-opacity="0.992157"
+          />
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M20.4562 13.6517C20.8594 14.0526 20.8594 14.7025 20.4562 15.1034L19.0521 16.4995C18.6488 16.9003 17.9951 16.9003 17.5919 16.4995C17.1887 16.0986 17.1887 15.4487 17.5919 15.0478L18.9961 13.6517C19.3993 13.2509 20.053 13.2509 20.4562 13.6517Z"
+            fill="currentColor"
+          />
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M20.477 8.48837C20.8802 8.88926 20.8802 9.53923 20.477 9.94006L10.1007 20.2565C9.69751 20.6574 9.04376 20.6574 8.64056 20.2565C8.23737 19.8556 8.23737 19.2057 8.64056 18.8048L19.0169 8.48837C19.4201 8.08749 20.0738 8.08749 20.477 8.48837Z"
+            fill="currentColor"
+          />
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M18.5148 5.31656C18.918 5.71743 18.918 6.3674 18.5148 6.76828L12.5471 12.7015C12.1439 13.1024 11.4902 13.1024 11.087 12.7015C10.6838 12.3006 10.6838 11.6506 11.087 11.2498L17.0547 5.31656C17.4579 4.91568 18.1116 4.91568 18.5148 5.31656Z"
+            fill="currentColor"
+          />
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M15.365 3.30404C15.7685 3.70465 15.7689 4.3546 15.366 4.75575L7.6947 12.393C7.29179 12.7941 6.63806 12.7946 6.23459 12.3939C5.83111 11.9933 5.83067 11.3434 6.2336 10.9422L13.9049 3.30502C14.3078 2.90387 14.9615 2.90344 15.365 3.30404Z"
+            fill="currentColor"
+          />
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M7.76826 5.74892C8.17079 6.15052 8.16968 6.80044 7.76577 7.20061L4.76128 10.1775C4.35738 10.5777 3.70366 10.5766 3.30115 10.175C2.89864 9.77343 2.89976 9.1235 3.30366 8.72329L6.30815 5.74643C6.71204 5.34625 7.36577 5.34736 7.76826 5.74892Z"
+            fill="currentColor"
+          />
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M9.60852 2.77805C10.1787 2.77805 10.641 3.23763 10.641 3.80456V3.90721C10.641 4.47413 10.1787 4.93371 9.60852 4.93371C9.03829 4.93371 8.57602 4.47413 8.57602 3.90721V3.80456C8.57602 3.23763 9.03829 2.77805 9.60852 2.77805Z"
+            fill="currentColor"
+            fill-opacity="0.992157"
+          />
+        </svg>
+      </div>
+      <span class="text-2xl font-medium tracking-tight font-sans text-gray-900">Bubbler</span>
+    </a>
 
     <!-- Nav -->
     <nav class="hidden md:flex items-center gap-8">
-      <a href="#product" class="text-sm font-medium text-gray-600 hover:text-black transition-colors">Product</a>
-      <a href="#security" class="text-sm font-medium text-gray-600 hover:text-black transition-colors">Security</a>
-      <a href="#company" class="text-sm font-medium text-gray-600 hover:text-black transition-colors">Company</a>
-      <a href="#news" class="text-sm font-medium text-gray-600 hover:text-black transition-colors">News</a>
-      <a href="#careers" class="text-sm font-medium text-gray-600 hover:text-black transition-colors">Careers</a>
+      <a href="#shows" class="text-sm font-medium text-gray-600 hover:text-primary-600 transition-colors">Shows</a>
+      <a href="#insights" class="text-sm font-medium text-gray-600 hover:text-primary-600 transition-colors">AI Insights</a>
+      <a href="#community" class="text-sm font-medium text-gray-600 hover:text-primary-600 transition-colors">Community</a>
+      <a href="#about" class="text-sm font-medium text-gray-600 hover:text-primary-600 transition-colors">About</a>
     </nav>
 
     <!-- Actions -->
     <div class="flex items-center gap-6">
-      <a href="#login" class="text-sm font-medium text-gray-600 hover:text-black transition-colors">Log in</a>
-      <a href="#demo" class="bg-black text-white text-sm font-medium px-5 py-2.5 rounded-full hover:bg-gray-800 transition-colors">
-        Request Demo
+      <a href="#login" class="text-sm font-medium text-gray-600 hover:text-primary-600 transition-colors">Sign in</a>
+      <a href="#join" class="bg-primary-600 text-white text-sm font-medium px-5 py-2.5 rounded-full hover:bg-primary-700 transition-colors">
+        Join Waitlist
       </a>
     </div>
   </div>

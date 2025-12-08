@@ -2,22 +2,22 @@
   const features = [
     {
       id: '01',
-      title: 'All your content in one place',
+      title: 'AI-powered episode insights',
       active: true
     },
     {
       id: '02',
-      title: 'Transparent, auditable sources',
+      title: 'Curated for marketing leaders',
       active: false
     },
     {
       id: '03',
-      title: 'Automate your workflows',
+      title: 'Community of the curious',
       active: false
     },
     {
       id: '04',
-      title: 'Proprietary document interrogation',
+      title: 'Actionable, not passive',
       active: false
     }
   ];
@@ -26,38 +26,38 @@
 <section class="py-24 max-w-[1400px] mx-auto px-6">
   <div class="mb-20">
     <h2 class="text-4xl md:text-5xl font-serif text-gray-900 leading-tight max-w-4xl">
-      Just as Bloomberg digitized financial data in the 1980s, <span class="font-semibold">Rogo is now transforming financial workflows.</span>
+      Marketing media is fragmented and overwhelming. <span class="font-semibold">Bubbler delivers the signal through the noise.</span>
     </h2>
   </div>
 
   <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
     <!-- Left: Image/UI Preview -->
-    <div class="relative bg-gray-900 rounded-lg overflow-hidden aspect-[4/3] shadow-2xl">
+    <div class="relative bg-primary-900 rounded-lg overflow-hidden aspect-[4/3] shadow-2xl">
       <img 
-        src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop" 
-        alt="Financial Data" 
-        class="absolute inset-0 w-full h-full object-cover opacity-40 mix-blend-overlay"
+        src="/generated/image-marketing-professionals-collaborating-in-1765148114641-1.webp" 
+        alt="Marketing professionals collaborating" 
+        class="absolute inset-0 w-full h-full object-cover opacity-30 mix-blend-overlay"
       />
       
       <!-- UI Overlay -->
       <div class="absolute inset-0 flex items-center justify-center p-8">
         <div class="bg-white/95 backdrop-blur rounded-lg shadow-lg w-full max-w-md p-6">
            <div class="flex items-center gap-4 mb-4">
-              <button class="p-2 hover:bg-gray-100 rounded-full">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
-              </button>
+              <div class="w-12 h-12 bg-primary-600 rounded-lg flex items-center justify-center text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" x2="12" y1="19" y2="22"/></svg>
+              </div>
               <div class="flex-1">
-                 <div class="text-xs text-gray-400 mb-1">Filings and earnings</div>
-                 <div class="flex items-center gap-2 text-sm font-medium">
-                    <div class="w-5 h-5 bg-blue-600 rounded flex items-center justify-center text-white text-[10px]">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
-                    </div>
-                    Market data
+                 <div class="text-xs text-gray-400 mb-1">Latest Episode</div>
+                 <div class="text-sm font-semibold text-gray-900">
+                    The Future of Brand Communities
                  </div>
+                 <div class="text-xs text-gray-500 mt-1">Marketing Mindset • 28 min</div>
               </div>
            </div>
-           <div class="h-px bg-gray-100 w-full my-2"></div>
-           <div class="pl-12 text-sm text-gray-400">Investor presentations</div>
+           <div class="h-px bg-gray-100 w-full my-3"></div>
+           <div class="bg-secondary-50 p-3 rounded text-xs text-gray-700">
+              <strong class="text-secondary-900">AI Summary:</strong> Brand communities drive 2.4x higher customer lifetime value. Focus on authentic connections over transactions...
+           </div>
         </div>
       </div>
     </div>
@@ -65,7 +65,7 @@
     <!-- Right: Features List -->
     <div class="pt-8">
       <h3 class="text-3xl font-serif text-gray-900 mb-12">
-        An Integrated, Secure Platform<br/>Built to Drive Your Firm Forward
+        A Community of Curious<br/>Marketing Leaders
       </h3>
 
       <div class="space-y-8">

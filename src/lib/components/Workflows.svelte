@@ -1,21 +1,18 @@
 <script>
   const workflowItems = [
     {
-      title: 'Firm-Specific Workflows',
-      description: 'Create and automate workflows tailored to your needs, reducing manual tasks and integrating seamlessly with your existing tools. Optimize processes for research, analysis, and reporting to improve efficiency and accuracy.',
-      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop',
+      title: 'Smart Episode Discovery',
+      description: 'Our AI analyzes your interests and listening patterns to surface the most relevant episodes from our curated network. Never miss insights that matter to your role and industry.',
       type: 'workflow'
     },
     {
-      title: 'AI Table Interface',
-      description: 'Organize and manage data effortlessly with an interactive table interface. Sort, filter, and update information in real time, enabling structured analysis and seamless decision-making.',
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop',
+      title: 'Instant AI Summaries',
+      description: 'Every episode comes with an AI-generated report highlighting key insights, actionable takeaways, and relevant timestamps. Get the value in minutes, not hours.',
       type: 'table'
     },
     {
-      title: 'Material Creation',
-      description: 'Generate reports, summaries, and presentations with AI-powered automation. Transform raw data into polished, professional materials while ensuring clarity and consistency.',
-      image: 'https://images.unsplash.com/photo-1586281380349-632531db7ed4?q=80&w=2070&auto=format&fit=crop',
+      title: 'Community Insights',
+      description: 'Connect with fellow marketing leaders, share perspectives, and discover what your peers are learning. Transform passive listening into active knowledge sharing.',
       type: 'creation'
     }
   ];
@@ -24,14 +21,14 @@
 <section class="py-24 bg-white">
   <div class="max-w-[1400px] mx-auto px-6">
     <div class="mb-16">
-      <h2 class="text-4xl md:text-5xl font-serif text-gray-900 mb-4">Streamline & Automate<br/>Your Workflows</h2>
+      <h2 class="text-4xl md:text-5xl font-serif text-gray-900 mb-4">From Passive Listening<br/>to Active Intelligence</h2>
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
       {#each workflowItems as item}
         <div class="group">
           <!-- Card Visual -->
-          <div class="bg-[#152e26] rounded-lg overflow-hidden aspect-[4/3] mb-8 relative p-6 flex flex-col">
+          <div class="bg-primary-900 rounded-lg overflow-hidden aspect-[4/3] mb-8 relative p-6 flex flex-col">
             {#if item.type === 'workflow'}
                <!-- Workflow UI Mockup -->
                <div class="bg-white rounded-md shadow-lg p-4 w-full h-full flex flex-col gap-3 text-[10px]">
