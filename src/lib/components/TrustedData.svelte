@@ -61,9 +61,3 @@
     </div>
   </div>
 </section>
-ont-serif text-lg">{provider.name}</span>
-        </div>
-      {/each}
-    </div>
-  </div>
-</section>
