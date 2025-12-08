@@ -46,7 +46,7 @@
        <div>
           <h4 class="text-xs font-bold tracking-widest uppercase text-gray-400 mb-6">Contact</h4>
           <ul class="space-y-4 text-sm text-gray-600">
-             <li><a href="#" class="hover:text-black transition-colors">Request Demo</a></li>
+             <li><a href="#" class="hover:text-black transition-colors">Join Waitlist</a></li>
              <li><a href="#" class="hover:text-black transition-colors">Sales</a></li>
              <li><a href="#" class="hover:text-black transition-colors">LinkedIn</a></li>
              <li><a href="#" class="hover:text-black transition-colors">Press</a></li>

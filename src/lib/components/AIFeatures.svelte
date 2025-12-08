@@ -64,11 +64,11 @@
                 </div>
              {:else if feature.type === 'library'}
                 <div class="bg-white shadow rounded p-4 w-full max-w-[200px] text-[10px] space-y-2">
-                   <div class="flex items-center gap-2 text-gray-500"><div class="w-2 h-2 rounded-full bg-gray-300"></div> Earnings Call Analysis</div>
-                   <div class="flex items-center gap-2 text-gray-500"><div class="w-2 h-2 rounded-full bg-gray-300"></div> Public Company Strip Profile</div>
-                   <div class="flex items-center gap-2 text-gray-500"><div class="w-2 h-2 rounded-full bg-gray-300"></div> Meeting Prep</div>
-                   <div class="flex items-center gap-2 text-gray-500"><div class="w-2 h-2 rounded-full bg-gray-300"></div> Private Company Profile</div>
-                   <div class="flex items-center gap-2 text-gray-500"><div class="w-2 h-2 rounded-full bg-gray-300"></div> Personal Bio</div>
+                   <div class="flex items-center gap-2 text-gray-500"><div class="w-2 h-2 rounded-full bg-gray-300"></div> Gen Z Consumer Insights</div>
+                   <div class="flex items-center gap-2 text-gray-500"><div class="w-2 h-2 rounded-full bg-gray-300"></div> Leadership Reinvention</div>
+                   <div class="flex items-center gap-2 text-gray-500"><div class="w-2 h-2 rounded-full bg-gray-300"></div> Marketing Strategies</div>
+                   <div class="flex items-center gap-2 text-gray-500"><div class="w-2 h-2 rounded-full bg-gray-300"></div> Career Development</div>
+                   <div class="flex items-center gap-2 text-gray-500"><div class="w-2 h-2 rounded-full bg-gray-300"></div> Business Trends</div>
                 </div>
              {:else if feature.type === 'implementation'}
                 <div class="flex items-center -space-x-4">
